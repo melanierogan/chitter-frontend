@@ -6,9 +6,9 @@
     var peeps_text = [];
     var i = 0;
     for (i; i < peeps.length; i++) {
-      peeps_text.push("<li><div>" + peeps[i].body + "</div></li>");
+      peeps_text.push("<p>" + peeps[i].body + "</p><br>");
     }
-    return "<ul>" + peeps_text.join("") + "</ul>";
+    return "<p>" + peeps_text.join("") + "</p><br>";
   };
 
   exports.PeepsView = PeepsView;
