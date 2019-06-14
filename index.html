@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chitter</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="src/peeps-model.js"></script>
+    <script src="src/peeps-view.js"></script>
+    <script src="src/controller.js"></script>
+  </head>
+  <body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4"><a href="/" style="color: black">Chitty chitty bang bang 🐭</a></h1>
+      <p class="lead">This is where you chit things</p>
+    </div>
+    </div>
+    <div class="container-fluid" align="center" style="padding:100px;">
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="col melcolor" id="peeps-list">
+        </div>
+        <div class="col">
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script> controller = new Controller();</script>
+  <script> controller.showPeeps(document);</script>
+</html>
+
+

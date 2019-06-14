@@ -1,0 +1,17 @@
+{
+  "name": "chitter-frontend-api",
+  "version": "1.0.0",
+  "description": "*The ultimate single page interface for the infamous online news feed and social networking service known as Chitter.*",
+  "main": "karma.conf.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
