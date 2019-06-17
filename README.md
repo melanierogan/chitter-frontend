@@ -8,3 +8,7 @@ Clone the repository:
 Run `npm install`
 Then run `$ http-server`
 
+# Next steps
+
+- I've broken things a bit while doing styling, need to sort that out
+- Post doesn't work
